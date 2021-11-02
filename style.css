@@ -49,7 +49,6 @@ header .headerLogo h1 {
     height: 50vh;
     justify-content: center;
     background-color: #1F2937;
-    /* border: 1px solid red; */
 }
 
 #content1 .parte1 {
@@ -57,11 +56,11 @@ header .headerLogo h1 {
     display: flex;
     flex-direction: column;
     margin: 5vh 10vh 0 32vh;
-    /* border: 2px solid blue; */
 }
 
 h1 {
     font-size: 48px;
+    font-weight: extra-bold;
     color: #F9FAF8;
 }
 
@@ -82,6 +81,133 @@ h1 {
 
 #content1 .parte2Img {
     flex: 1 1 50%;
-    /* border: 2px solid green; */
     margin: 5vh 10vh 0 0;
+}
+
+/* Estilos de la sección 2 */
+#content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#content2 h2{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    margin-top: 5vh;
+}
+
+#content2 .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5vh 0 7vh 0;             /*top right bottom left*/ 
+    gap: 60px;
+}
+
+#content2 .items .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#content2 .items .project .image-wrap img{
+    border: 6px solid #3882F6;
+    border-radius: 12px;
+}
+
+#content2 .items .project .project-info p {
+    text-align: center;
+    width: 180px;
+}
+
+/* Estilos de la sección 3 */
+#content3 {
+    display: flex;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    /* background: #eee; */
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.quote blockquote {
+    flex: 1;
+    width: 95vh;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-top: 10vh;
+}
+
+.quote figcaption{
+    margin-left: 600px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10vh;
+    /* border: 2px solid blue; */
+}
+
+/* Estilos de la cuarta sección */
+#content4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+#content4 .centrado {
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 110vh;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+#content4 .centrado .cta {
+    flex-grow: 1;
+    color: white;
+    margin-left: 20vh;
+}
+
+#content4 .centrado .button{
+    flex-grow: 2;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#content4 .centrado .button input {
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+    width: 15vh;
+    height: 4vh;
+    border-radius: 8px;
+}
+
+/* Estilos de Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #1F2937;
+    /* border: 1px solid red; */
+}
+
+footer .info {
+    color: white;
 }
